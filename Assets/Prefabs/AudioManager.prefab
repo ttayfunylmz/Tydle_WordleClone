@@ -1,0 +1,95 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3826654884400949741
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3826654884400949739}
+  - component: {fileID: 6584295601528024655}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3826654884400949739
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826654884400949741}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6584295601528024655
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3826654884400949741}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef901981d053cd54f85b814b73946056, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Sounds:
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: 3ee4af557bff8f84589beab7096664fd, type: 3}
+    Name: ButtonClickSound
+    Volume: 1
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: 8fecccc62d6c974459b3ffc622a6f3e8, type: 3}
+    Name: KeyboardSound
+    Volume: 0.7
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: 9d600b3535b5ed8449940920c8a80334, type: 3}
+    Name: DeleteSound
+    Volume: 0.7
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: d7a756f7a8d4ff646ba9f44674df051a, type: 3}
+    Name: InvalidSound
+    Volume: 0.7
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: e388ffbd85b111d4385dabf440540e51, type: 3}
+    Name: TrueSound
+    Volume: 0.7
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
+  - Source: {fileID: 0}
+    AudioClip: {fileID: 8300000, guid: b6714c98b43d67d468fe87ce3b29881a, type: 3}
+    Name: WrongSound
+    Volume: 0.7
+    Pitch: 1
+    Mute: 0
+    Loop: 0
+    playOnAwake: 0
